@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="218b6d99-bc24-4212-b59f-a3b016114c28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Customers.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Employees.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Offices.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Order_Products.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orders.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Payments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Productlines.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Employee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Office.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Office.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Order_Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Order_Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Productline.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Productline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CustomerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CustomerFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/EmployeeFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/EmployeeFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/OfficeFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/OfficeFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/OrderFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/OrderFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/Order_ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/Order_ProductFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/PaymentFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/PaymentFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ProductlineFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductlineFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CustomerSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CustomerSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/EmployeeSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/EmployeeSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/OfficeSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/OfficeSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/OrderSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/OrderSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/Order_ProductSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/Order_ProductSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/PaymentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/PaymentSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ProductSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ProductlineSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductlineSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602694813233</updated>
       <workItem from="1602694816770" duration="30076000" />
-      <workItem from="1603293418592" duration="2768000" />
+      <workItem from="1603293418592" duration="4062000" />
     </task>
     <servers />
   </component>

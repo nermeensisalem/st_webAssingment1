@@ -5,7 +5,7 @@
 use App\Model;
 use Faker\Generator as Faker;
 
-$factory->define(\App\Productlines::class, function (Faker $faker) {
+$factory->define(\App\Productline::class, function (Faker $faker) {
     return [
         'DescInText'=>$faker->sentence,
         'DescInHTML'=>$faker->sentence,

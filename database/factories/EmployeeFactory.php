@@ -5,9 +5,9 @@
 use App\Model;
 use Faker\Generator as Faker;
 
-$factory->define(\App\Employees::class, function (Faker $faker) {
+$factory->define(\App\Employee::class, function (Faker $faker) {
     return [
-        'OfficeCode'=>\App\Offices::all()->random()->Code,
+        'OfficeCode'=>\App\Office::all()->random()->Code,
       //  'reportsTo'=>\App\Employees::all()->random()->id,
         'LastName' => $faker->name,
         'FirstName'=>$faker->name,

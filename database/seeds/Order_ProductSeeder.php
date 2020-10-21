@@ -12,6 +12,6 @@ class Order_ProductSeeder extends Seeder
     public function run()
     {
         //
-        factory(\App\Order_Products::class,15)->create();
+        factory(\App\Order_Product::class,15)->create();
     }
 }

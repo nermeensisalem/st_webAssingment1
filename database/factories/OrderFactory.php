@@ -5,9 +5,9 @@
 use App\Model;
 use Faker\Generator as Faker;
 
-$factory->define(\App\Orders::class, function (Faker $faker) {
+$factory->define(\App\Order::class, function (Faker $faker) {
     return [
-        'CustomerID'=>\App\Customers::all()->random()->id,
+        'CustomerID'=>\App\Customer::all()->random()->id,
         'OrderDate'=>$faker->dateTime,
         'RequiredDate'=>$faker->dateTime,
         'ShippedDate'=>$faker->dateTime,

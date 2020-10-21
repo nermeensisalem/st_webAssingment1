@@ -5,7 +5,7 @@
 use App\Model;
 use Faker\Generator as Faker;
 
-$factory->define(\App\Offices::class, function (Faker $faker) {
+$factory->define(\App\Office::class, function (Faker $faker) {
     return [
         'City'=>$faker->city,
         'Phone'=>$faker->phoneNumber,
